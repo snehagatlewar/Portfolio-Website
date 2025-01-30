@@ -4,7 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
 <img src="path/to/your/image.jpg" alt="Description" style="position: absolute; top: 50px; left: 100px; width: 300px;">
-![Nav Icon](src/assets/img/nav-icon2.svg)
+![Nav Icon](src/assets/img/myimg.png)
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div style="flex: 1; padding-right: 10px;">
+        <h2>Your Text Title Here</h2>
+        <p>This is where your text would go. You can add more details or explanations about the image here.</p>
+    </div>
+    <div style="flex: 1;">
+        <img src="image-url.jpg" alt="Description of image" style="width: 100%; max-width: 500px;">
+    </div>
+</div>
+
 
 
 
