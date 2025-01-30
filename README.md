@@ -8,12 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
-    <div style="flex: 1; padding-right: 10px;">
-        <h2>Your Text Title Here</h2>
-        <p>This is where your text would go. You can add more details or explanations about the image here.</p>
-    </div>
     <div style="flex: 1;">
-        <img src="image-url.jpg" alt="Description of image" style="width: 100%; max-width: 500px;">
+        <img src="src/assets/img/myimg.png" alt="Description of image" style="width: 100%; max-width: 500px;">
     </div>
 </div>
 
