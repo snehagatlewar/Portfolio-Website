@@ -1,7 +1,10 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
+<<<<<<< HEAD
   "homepage": "https://snehagatlewar.github.io/Portfolio-Website",
+=======
+>>>>>>> f2148a03e3f04363cb7943a150ab1879d609d573
   "private": true,
   "dependencies": {
     "animate.css": "^4.1.1",
@@ -22,8 +25,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> f2148a03e3f04363cb7943a150ab1879d609d573
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -48,7 +54,10 @@
   "devDependencies": {
     "@babel/core": "^7.26.7",
     "@svgr/webpack": "^8.1.0",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> f2148a03e3f04363cb7943a150ab1879d609d573
     "url-loader": "^4.1.1"
   }
 }

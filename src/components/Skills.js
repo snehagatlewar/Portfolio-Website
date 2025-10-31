@@ -10,7 +10,6 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -36,44 +35,42 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                <br />
+                Specializing in <b>Python, SQL, Excel,</b> and <b>Power BI</b>,
+                capable of performing data cleaning, analysis, and visualization
+                to uncover insights and support data-driven business decisions.
               </p>
-              <p>
-                Specializing in Python, SQL, Excel, and Power BI, capable of
-                performing data cleaning, analysis, and visualization to uncover
-                insights and support data-driven business decisions.
-              </p>
+
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Excel Skill" />
                   <h5>Excel</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="Python Skill" />
                   <h5>Python</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="SQL Skill" />
                   <h5>SQL</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Power BI Skill" />
                   <h5>Power BI</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="Data Visualization Skill" />
                   <h5>Data Visualization</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="Data Cleaning Skill" />
                   <h5>Data Cleaning & Analysis</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Business Analytics Skill" />
                   <h5>Business Analytics</h5>
                 </div>
               </Carousel>
@@ -81,7 +78,11 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="Decorative Background"
+      />
     </section>
   );
 };

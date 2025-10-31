@@ -19,9 +19,7 @@ export const Banner = () => {
       tick();
     }, delta);
 
-    return () => {
-      clearInterval(ticker);
-    };
+    return () => clearInterval(ticker);
   }, [text]);
 
   const tick = () => {
@@ -54,7 +52,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -66,7 +64,6 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
                     {`Hi! I'm Sneha `}
-                    {""}
                     <br />
                     <span
                       className="txt-rotate"
@@ -88,13 +85,13 @@ export const Banner = () => {
                     <b>Electronics & Telecommunications Engineering</b> and a
                     passion for analytics, I aim to turn data into meaningful
                     insights and support data-driven decisions.
-                  </p> 
+                  </p>
 
                   <button
                     onClick={() => {
                       const link = document.createElement("a");
-                      link.href =
-                        process.env.PUBLIC_URL + "/cv/Sneha_Gatlewar_DA.pdf";
+                      // ✅ Correct path for public folder files:
+                      link.href = process.env.PUBLIC_URL + "/cv/Sneha_Gatlewar_DA.pdf";
                       link.download = "Sneha_Gatlewar_DA.pdf";
                       link.click();
                     }}
@@ -107,7 +104,6 @@ export const Banner = () => {
           </Col>
 
           <Col xs={12} md={6} xl={5}>
-            {/* <img src={headerImg} alt="Header Img" /> */}
             <img src={my} alt="Header Img" className="header-img" />
           </Col>
         </Row>
