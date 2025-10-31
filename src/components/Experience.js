@@ -12,14 +12,15 @@ const Experience = () => {
         <h1 className="experience-title">Experience</h1>
       </div>
       <br/>
-          <span className="experience-date">15 Jan 2024 - 15 Oct 2024</span>
-          <h2 className="experience-role">Java Fullstack Developer</h2>
+          <span className="experience-date">1 June 2022 - 1 July 2022</span>
+          <h2 className="experience-role">Data Science & Bussiness Analytics</h2>
           <span className="experience-position">Intern</span>
           <div className="experience-description">
             <ul>
-              <li>Assist in building responsive and interactive user interfaces using HTML, CSS, and JavaScript.</li>
-              <li>Learn to test and ensure cross-browser compatibility for front-end code.</li>
-              <li>Explore the creation and use of web components for encapsulated, reusable elements across different or frame.</li>
+              <li>Utilized <b>Python</b> (Pandas, NumPy, Matplotlib, Seaborn) for exploratory data analysis and data visualization tasks.</li>
+              <li>Implemented <b>machine learning models</b> (Linear Regression, K-Means Clustering) to derive actionable business insights from datasets.</li>
+              <li>Collaborated in an <b>online data science community</b>, performing peer evaluations and sharing knowledge with global interns.</li>
+
             </ul>
           </div>
         </div>
