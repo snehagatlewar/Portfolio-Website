@@ -80,8 +80,8 @@ export const Banner = () => {
 
                 <button onClick={() => {
                   const link = document.createElement('a');
-                  link.href = '/Portfolio-Website/public/cv/Sneha _Gatlewar_new.pdf';
-                  link.download = 'Sneha_Gatlewar_new.pdf'; 
+                  link.href = '/Portfolio-Website/public/cv/Sneha Gatlewar DA.pdf';
+                  link.download = 'Sneha Gatlewar DA.pdf'; 
                   link.click();
                     }}>
                     Download CV
