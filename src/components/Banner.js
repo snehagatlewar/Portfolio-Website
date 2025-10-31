@@ -68,13 +68,14 @@ export const Banner = () => {
                 <span className="wrap">{text}</span>
               </span>
             </h1>
-            <p> I'm <b>Sneha Rajendra Gatlewar</b>, a passionate <b>Software Engineer</b> from Nagpur, specializing in 
-                  both front-end and back-end development with skills in <b>HTML, CSS, JavaScript, Bootstrap, React js, Java </b>
-                  and  <b>SQL</b>. I interned at <b>Anishree Technologies Pvt. Ltd.</b>, focusing on creating 
-                  responsive, user-friendly websites. I hold a degree in Electronics & Telecommunications 
-                  Engineering and have a strong passion for problem-solving. Always eager to learn and grow, 
-                  I’m excited to continue exploring new challenges in the tech field.
-            </p>
+          
+            <p>I'm <b>Sneha Rajendra Gatlewar</b>, a passionate <b>Data and Business Analyst</b> from Nagpur, skilled in turning data into actionable insights 
+                  and strategic decisions. I have hands-on experience with <b>Python, Excel, SQL, Power BI, and Data Visualization</b> tools. 
+                  During my internship at <b>The Sparks Foundation</b>, I worked on real-world data projects involving data cleaning, analysis, and dashboard creation 
+                  to support business objectives. With a degree in <b>Electronics & Telecommunications Engineering</b> and a strong analytical and problem-solving mindset, 
+                  I enjoy uncovering patterns, optimizing processes, and using data to drive impactful decisions. 
+                  Always eager to learn and grow, I’m excited to contribute to innovative, data-driven solutions in a dynamic environment.</p>
+
     
 
                 <button onClick={() => {
