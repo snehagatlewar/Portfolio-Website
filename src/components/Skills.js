@@ -35,35 +35,36 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p><br></br> Specializing in React.js, JavaScript, HTML/CSS, and Bootstrap, Can create dynamic, responsive web solutions with a focus on both front-end and back-end development.</p>
+                        <p><br></br> <p>Specializing in Python, SQL, Excel, and Power BI, capable of performing data cleaning, analysis, and visualization to uncover insights and support data-driven business decisions.</p>
+
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>HTML</h5>
+                                <h5>Excel</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>CSS</h5>
+                                <h5>Python</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>JavaScript</h5>
+                                <h5>SQL</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Bootstrap</h5>
+                                <h5>Power BI</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>React Js</h5>
+                                <h5>Data Visualization</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Java</h5>
+                                <h5>Data Cleaning & Analysis</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>MySQL</h5>
+                                <h5>Business Analytics</h5>
                             </div>
                         </Carousel>
                     </div>
